@@ -1,0 +1,12 @@
+application : poemgenerator
+runtime: python
+api_version: 1
+threadsafe : true
+
+handlers:
+- url: .*
+  script: app.py
+  static_files: www/index.html
+
+runtime_config:
+  python_version: 3
