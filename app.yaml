@@ -1,5 +1,6 @@
 application : poemgenerator
 runtime: python
+env: flex
 api_version: 1
 threadsafe : true
 
